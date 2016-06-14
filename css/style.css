@@ -1,0 +1,161 @@
+/*фон сайта*/
+body {
+    background: url('../image/img1.jpg');
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*логотип*/
+div#logo { 
+    width:100%;
+    height:13em; 
+    background:url('../image/img2.png') no-repeat;
+}
+
+/*меню*/
+#menu{
+list-style:none; width: 78em; padding:0; margin: auto;
+}
+#menu li{
+float:left; font:bold 13px Arial;
+}
+#menu a{
+	color: hsl(171, 81%, 23%);
+    padding: 12px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+}
+#menu a:hover{
+	border-radius: 8px 8px ;
+    background-color: #39AD94;
+}
+#menu h{
+	color: hsl(171, 81%, 23%);
+    padding: 12px 68px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center
+}
+.header {
+	padding: 0;
+    list-style-type: none;
+    border: 2px solid hsl(171, 81%, 23%);
+    border-radius: 10px 10px 0 0;
+    width: 81em;
+    text-align: left;
+    background-color: #bebebe;
+}
+
+/*центральная часть сайта*/
+.center_col {
+	/*margin: auto;*/
+    width:81em;
+    height:50em;
+    background-color: #D6D4D4;
+    padding:19px;
+    vertical-align:top;
+    border:2px solid hsl(171, 81%, 23%)
+}
+h1{
+    color:hsl(171, 81%, 23%);
+    margin-top:17px;
+}
+img{
+    width: 50em;
+    margin-top:17px;
+}
+
+/*нижняя часть сайта*/
+.footer {
+	color: hsl(171, 81%, 23%);
+    width: 81em;
+    height:1.3em;
+    margin:auto;
+    padding: 1px 2px;
+    background-color: #bebebe;
+    border-top: 2px solid silver;
+    margin-top: 4px ;
+    border: 2px solid hsl(171, 81%, 23%);  
+    border-radius: 0 0 10px 10px; 
+}
+#right{
+    float:right;
+    width: 50%;
+    text-align: right;
+    margin-right: 30px; 
+    font-size: 1.1em;
+}
+
+/*форма регистрации и авторизации*/
+fieldset {
+	border: none;
+	margin: 0;
+}
+label{
+    color: hsl(171, 81%, 23%);
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Times New Roman';   
+}
+#login-form {
+	margin: 10px auto;
+	width: 300px;
+}
+#login-form h1 {
+	background-color: hsl(171, 81%, 23%);
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 14px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#login-form input {
+	font-size: 13px;
+}
+#login-form input[type="telefon"],
+#login-form input[type="adress"],
+#login-form input[type="login"],
+#login-form input[type="password"],
+#login-form input[type="name"],
+#login-form input[type="family"],
+#login-form input[type="email"] {
+	border: 1px solid #dcdcdc;
+	padding: 12px 10px;
+	width: 238px;
+}
+
+
+#login-form input[type="submit"] {
+	background: hsl(171, 81%, 23%);
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 12px 20px;
+}
+#login-form input[type="submit"]:hover {
+ background: #6069a6; 
+ }
+ #news-form h1{
+	background-color: hsl(171, 81%, 23%);
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 14px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#d{
+	
+}
+
+
+
+
